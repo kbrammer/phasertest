@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'emulogic';
+  src: url('../fonts/freaky-fonts_emulogic/emulogic.ttf') format('truetype');
+}
+body {
+  background: #000;
+}
+canvas {
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-inverse {
+  background: #000;
+  color: #4B00FF;
+}
+.btn-inverse:active,
+.btn-inverse:focus {
+  color: #F00;
+}
+.navbar-inverse a {
+  color: #FFF;
+  font-family: 'emulogic';
+}
+.blink-me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.0;
+  }
+}
